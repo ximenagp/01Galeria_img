@@ -11,14 +11,14 @@ const imageData = [
     url: "./assets/tigre.jpg",
     title: "Tigre",
     description: "Carnívoro",
-    href: "https://avesenchile.cl/martin-pescador/"
+    href: "https://www.nationalgeographic.com.es/animales/tigre"
   },
   {
     id: 3,
     url: "./assets/elefante.jpg",
     title: "Bebé elefante",
     description: "Abrevadero",
-    href: "https://avesenchile.cl/martin-pescador/"
+    href: "https://www.elefanteswiki.com/bebes-elefantes"
   },
 ];
 

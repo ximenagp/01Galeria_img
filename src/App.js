@@ -1,11 +1,17 @@
-import './App.css';
-import './Card.css';
-import Card from './components/Cards';
-import cardData from './components/cardData';
-  function App() {
-    return (
+import "./App.css";
+import "./Card.css";
+import Card from "./components/Cards";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
+import cardData from "./components/cardData";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+function App() {
+  return (
+    <div className="container">
+      <Header />
       <div>
-        
         {cardData.map((card) => {
           return (
             <Card
@@ -15,13 +21,13 @@ import cardData from './components/cardData';
               description={card.description}
             />
           );
-        })
-        }
-
-        {/* Repite Card con otras imágenes */}
-       
+        })}
       </div>
-    );
-  }
+      <div>
+        <Footer />
+      </div>
+    </div>
+  );
+}
 
 export default App;
